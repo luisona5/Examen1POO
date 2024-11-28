@@ -1,11 +1,11 @@
 
-public class Regiones extends Continentes {
+public class Regiones extends Paises {
     String NombreRegion;
 
     public Regiones(){}
 
-    public Regiones(String nameContienente, String NombreRegion) {
-        super(nameContienente);
+    public Regiones(String nameContienente, String NombreRegion,String nombre) {
+        super(nombre);
         this.NombreRegion = NombreRegion;
 
     }
@@ -23,6 +23,7 @@ public class Regiones extends Continentes {
 
     @Override
     public void mostrarPaises(){
-        System.out.println("Nombre del Pais: "+getNombreRegion());
+        super.mostrarPaises();
+        System.out.println("Nombre del Pais: "+NombreRegion);
     }
 }

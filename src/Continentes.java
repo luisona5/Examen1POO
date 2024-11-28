@@ -19,6 +19,6 @@ public class Continentes {
 
     public void mostrarPaises(){
         System.out.println("\t-----INFORMACION GENERAL----\n");
-        System.out.println("el pasi se encuentra en el continente: "+nameContienente);
+        System.out.println("el pais se encuentra en el continente: "+ nameContienente);
     }
 }

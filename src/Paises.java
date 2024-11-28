@@ -3,6 +3,7 @@ public class Paises extends Continentes {
 
 
     // construccion de un constructor vacio
+    public Paises() {}
 
 
     // construccion de un constructor

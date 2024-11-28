@@ -5,11 +5,10 @@ public class Main {
 
         System.out.println("\t----BIENVENIDO---------");
 
-        Paises pais1 = new Paises("America Central");
+        Paises pais1=new Paises("Europa","España");
         pais1.mostrarPaises();
 
-        Paises pais2=new Paises("Europa","España");
-        pais2.mostrarPaises();
+
 
 
 
