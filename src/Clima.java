@@ -1,10 +1,7 @@
 public class Clima extends  Regiones{
     String Clima;
     public Clima() {
-        super();
     }
-
-
 
     public Clima(String nameContienente, String NombreRegion, String clima) {
         super(nameContienente, NombreRegion);

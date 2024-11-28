@@ -5,7 +5,7 @@ public class Regiones extends Paises {
     public Regiones(){}
 
     public Regiones(String nameContienente, String NombreRegion,String nombre) {
-        super(nombre);
+        super(nameContienente,nombre);
         this.NombreRegion = NombreRegion;
 
     }
